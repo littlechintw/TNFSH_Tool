@@ -1,4 +1,4 @@
-# TNFSH_Tool_Public.ver
+# TNFSH_Tool
 此機器人目前設置於 https://m.me/tnfshtool
 
 ## 使用說明
