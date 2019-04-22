@@ -24,3 +24,5 @@ def workornot():
     reply += '\n\n📊停班停課資訊來自:https://www.dgpa.gov.tw/typh/daily/nds.html'
 
     return reply
+
+print(workornot())
