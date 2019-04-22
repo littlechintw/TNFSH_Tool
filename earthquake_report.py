@@ -9,9 +9,9 @@ def earthquake():
     reply = 'Earthquake Report\n\n'
 
     url = 'https://www.cwb.gov.tw/V7/modules/MOD_EC_Home.htm'
-    resp = requests.get(url)
-    resp.encoding = 'utf8'
-    soup = BeautifulSoup(resp.text, 'html.parser')
+    resp = requests.get(url) #取得網頁原始碼
+    resp.encoding = 'utf8' #轉編碼，才不會出現亂碼
+    soup = BeautifulSoup(resp.text, 'html.parser') #利用BeautifulSoup轉換成該套件格式
 
     alldata = soup.find('table')
     onebyone = alldata.find_all('tr', limit=6) #因為第一筆資料是表格頂，所以取需要的數量+1
