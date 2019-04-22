@@ -7,7 +7,6 @@ from urllib.parse import unquote as decode
 def earthquake():
 
     reply = 'Earthquake Report\n\n'
-
     url = 'https://www.cwb.gov.tw/V7/modules/MOD_EC_Home.htm'
     resp = requests.get(url) #取得網頁原始碼
     resp.encoding = 'utf8' #轉編碼，才不會出現亂碼
