@@ -34,3 +34,5 @@ def classstate(time_start, time_end, user_class, user_sitenum):
 
     reply += '\n\n不放心嗎？打開以下連結檢查吧！\n' + url
     return reply
+
+print(classstate('2019-04-06', '2019-04-28', '101', '01'))
