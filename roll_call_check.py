@@ -36,3 +36,4 @@ def classstate(time_start, time_end, user_class, user_sitenum):
     return reply
 
 print(classstate('2019-04-06', '2019-04-28', '101', '01'))
+#示範測資:查詢101班01號自2019/04/06至2019/04/28的資料
