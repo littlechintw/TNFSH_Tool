@@ -10,7 +10,7 @@ def tnfshnew():
     resp = requests.get(url) #取得網頁原始碼
     resp.encoding = 'utf8' #轉編碼，才不會出現亂碼
     soup = BeautifulSoup(resp.text, 'html.parser') #利用BeautifulSoup轉換成該套件格式
-    sesoup = soup.find_all('span', 'ptname ', limit=5) #尋找訊息，且限制最多5項資料
+    sesoup = soup.find_all('span', 'ptname', limit=5) #尋找訊息，且限制最多5項資料
 
     for i in range(5):
         reply += str(i+1) + '.'
