@@ -16,7 +16,6 @@ def tnfshnew():
         reply += str(i+1) + '.'
         reply += sesoup[i].find('a').string.strip('\n').strip('\t').strip(' ') #取得最新訊息文字內容
         reply += sesoup[i].find('a')['href'].strip('\n').strip('\t').strip(' ') + '\n\n' #取得最新訊息連結
-
     return reply
 
 print(tnfshnew())
