@@ -9,5 +9,5 @@
 ## 套件安裝方式
 ```
 利用bash輸入以下指令安裝
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
