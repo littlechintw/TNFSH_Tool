@@ -6,8 +6,7 @@
 請使用python3執行並安裝相關套件後即可直接使用。
 ```
 
-## 套件安裝方式
+## Install
 ```
-利用bash輸入以下指令安裝
 pip3 install -r requirements.txt
 ```
